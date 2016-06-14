@@ -555,7 +555,8 @@ p {
 .meal-avatar {
   position: absolute;
   box-sizing: border-box;
-  border: 10px #fff solid;
+  border: 5px #fff solid;
+  /*border-radius: 25px;*/
   width: 50px;
   height: 50px;
 }
@@ -615,7 +616,7 @@ p {
 
 .grid-item--gigante {
   width: 500px;
-  height: 550px;
+  height: 600px;
 }
 
 .grid-item--gigante .meal-title {
@@ -628,6 +629,11 @@ p {
 
 .grid-item--gigante .meal-restaurant {
   font-size: 50px!important;
+}
+
+.grid-item--gigante .meal-avatar {
+  height: 100px!important;
+  width: 100px!important;
 }
 
 .grid-item:hover {
