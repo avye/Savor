@@ -11,8 +11,6 @@ angular.module('savor.user',['ngMaterial', 'ngMessages', 'material.svgAssetsCach
   console.log('user controller loaded');
 
   $scope.$on('ngRepeatFinished', function (element, test, test2) {
-    console.log('NG REPEAT FINISHED');
-    // masonryGrid.instantiateMasonryGrid();
     if (!$scope.gridLoaded) {
       console.log('first ngrepeat finished');
       masonryGrid.instantiateMasonryGrid();
@@ -155,8 +153,8 @@ angular.module('savor.user',['ngMaterial', 'ngMessages', 'material.svgAssetsCach
   }
 
   var updateMasonryGrid = function(elem) {
-    $grid.masonry( 'appended', elem );
-    // $grid.masonry();
+    $grid.masonry('reloadItems');
+    $grid.masonry();
   }
 
   return {
