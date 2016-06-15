@@ -112,6 +112,7 @@ svg path {
 
 .cropped-area img {
   height: 200px;
+  width: 225px
 }
 
 .crop-container {
@@ -122,6 +123,7 @@ svg path {
 
 .crop-label {
   margin-bottom: 10px;
+  padding-top: 10px;
 }
 
 .loginBackground {
@@ -569,10 +571,16 @@ p {
 
 .grid-item .meal-title {
   font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
   position: absolute;
   left:0;
   bottom:0;
   padding: 5px;
+}
+
+.grid-item. .meal-notes {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
 }
 
 .grid-item .meal-restaurant {
@@ -616,11 +624,38 @@ p {
 
 .grid-item--gigante {
   width: 500px;
-  height: 600px;
+  height: 520px;
+}
+
+
+.meal-notes {
+  overflow: auto;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 11px;
+  width: 448px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #fff!important;
+  text-shadow: 2px 2px 2px #000;
+  background: rgba(206, 127, 89 ,0.2)
 }
 
 .grid-item--gigante .meal-title {
-  font-size: 40px!important;
+  padding-left: 50px;
+  margin-left: 60px;
+  width: 370px;
+  overflow: hidden;
+  position: absolute!important;
+  top: 0;
+  left: 0;
+  font-size: 50px!important;
+  font-family: 'Work Sans', sans-serif;
+  color: #fff!important;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #000;
 }
 
 .grid-item--gigante .meal-date {
@@ -628,10 +663,20 @@ p {
 }
 
 .grid-item--gigante .meal-restaurant {
-  font-size: 50px!important;
+  color: #000;
+  font-style: italic;
+  text-shadow: 0px 0px 0px #000;
+  font-size: 15px!important;
+  position: absolute!important;
+  left:0!important;
+  bottom: 0!important;
+  top: auto!important;
+  padding: 5px!important;
+  margin-left: 0px!important;
 }
 
 .grid-item--gigante .meal-avatar {
+  border: 6px #fff solid;
   height: 100px!important;
   width: 100px!important;
 }
@@ -651,4 +696,20 @@ body {
 
 md-input-container.md-icon-left {
   margin-top: 50px;
+}
+
+#a0-lock.a0-theme-default .a0-panel .a0-icon-container {
+  background: url('https://s3-us-west-2.amazonaws.com/savorapp/auth-header-bg.png');
+  background-repeat: no-repeat;
+}
+
+#a0-lock.a0-theme-default .a0-panel .a0-icon-container .a0-avatar {
+  position: absolute;
+  z-index: -1;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .grid-item {
+    width: 315px!important;
+  }
 }
