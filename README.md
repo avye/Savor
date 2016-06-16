@@ -1,12 +1,12 @@
 # Project Name
 
-> Pithy project description
+> Savor - a visual social meal-logging application
 
 ## Team
 
-  - __Product Owner__: teamMember
-  - __Scrum Master__: teamMember
-  - __Development Team Members__: teamMember, teamMember
+  - __Product Owner__: Andrew Vye
+  - __Scrum Master__: Josh Summerhays
+  - __Development Team Members__: Brendan Pelletier, Zach Hutsell
 
 ## Table of Contents
 
