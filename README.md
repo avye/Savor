@@ -20,7 +20,7 @@
 
 ## Usage
 
-> Check out Savor [here](https://savor-app.herokuapp.com/#/). Login/signup there using an email, Google account, or Facebook. Once you are logged in, you can start created food memories! Feel free to also add some friends by clicking on your user icon in the top right. This will share your meals with them and you'll also be able to see their meals. Then go out and eat/make some great meals!
+> Check out Savor [here](https://savor-app.herokuapp.com/#/). Login/signup there using an email, Google account, or Facebook. Once you are logged in, you can start creating food memories! Feel free to also add some friends by clicking on your user icon in the top right. This will share your meals with them and you'll also be able to see their meals. Then go out and eat/make some great meals!
 
 ## Requirements
 
